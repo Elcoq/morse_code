@@ -6,6 +6,8 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         . . . . .
         `)
+    basic.pause(200)
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -15,7 +17,10 @@ input.onButtonPressed(Button.B, function () {
         . . . . .
         . . . . .
         `)
+    basic.pause(200)
+    basic.clearScreen()
 })
+let button_1 = "."
 let morse = [
 ".-",
 "-...",
